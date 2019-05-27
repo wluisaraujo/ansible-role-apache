@@ -1,4 +1,5 @@
-[![Build Status](https://travis-ci.org/wluisaraujo/iac-ansible-webserver.svg?branch=master)](https://travis-ci.org/wluisaraujo/iac-ansible-webserver)
+[![Ansible Galaxy](https://img.shields.io/badge/Ansible%20Galaxy-WebServer-blue.svg)](https://galaxy.ansible.com/wluisaraujo/iac-ansible-webserver) [![Build Status](https://travis-ci.org/wluisaraujo/iac-ansible-webserver.svg?branch=master)](https://travis-ci.org/wluisaraujo/iac-ansible-webserver)
+
 ---
 # IaC: with [Ansible](https://www.ansible.com) role to install and configure [Apache WebServer](https://www.apache.org/)
 ------------
