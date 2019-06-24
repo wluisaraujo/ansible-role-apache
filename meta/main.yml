@@ -1,6 +1,6 @@
 galaxy_info:
   
-  role_name: iac-ansible-rundeck
+  role_name: iac-ansible-webserver
   
   author: w.luis.araujo
   description: "Install WebServer (HTTPD)"
