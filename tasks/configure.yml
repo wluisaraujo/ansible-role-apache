@@ -1,5 +1,5 @@
 ---
-# tasks file for webserver-httpd
+# tasks file for apache
 
 - name: Define os arquivos de configuracao do Apache
   when: http_installed|success

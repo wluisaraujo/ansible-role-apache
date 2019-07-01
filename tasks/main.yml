@@ -1,5 +1,5 @@
 ---
-# tasks file for webserver-httpd
+# tasks file for apache
 - name:  Instala servidor Web Apache Base (OS base CentOS)
   when: (ansible_os_family == "RedHat")
   import_tasks: install.yml

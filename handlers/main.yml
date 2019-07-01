@@ -1,5 +1,5 @@
 ---
-# handlers file for webserver-httpd
+# handlers file for apache
 - name: Start httpd
   when: (ansible_os_family == "CentOS") or
         (ansible_os_family == "RedHat")
