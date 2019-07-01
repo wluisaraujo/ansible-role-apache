@@ -59,7 +59,7 @@ install:
 
 
  # Install ansible role
- - ansible-galaxy install wluisaraujo.iac-ansible-webserver
+ - ansible-galaxy install wluisaraujo.iac_ansible_webserver
 
 script:
  # Basic role syntax check
