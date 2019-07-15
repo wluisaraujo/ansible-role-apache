@@ -8,8 +8,8 @@ galaxy_info:
   platforms:    
   - name: Fedora  
   versions:     
-  - all         
-  - 25        
+  - 30         
+  - 29        
   galaxy_tags: 
     - http server
     - webserver
