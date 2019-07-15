@@ -9,10 +9,31 @@ galaxy_info:
   - name: Fedora  
     versions:     
     - 30         
-    - 29        
+    - 29
+  - name: EL  
+    versions:     
+    - 8         
+    - 7        
+    
   galaxy_tags: 
     - http server
     - webserver
     - httpd
     - apache
 dependencies: []
+
+#platforms:
+#  - name: EL
+#    versions:
+#    - 7
+#  - name: Fedora
+#    versions:
+#    - 30
+#    - 29	
+#  - name: Debian
+#    versions:
+#    - all
+#  - name: Ubuntu
+#    versions:
+#    - bionic
+#    - xenial
