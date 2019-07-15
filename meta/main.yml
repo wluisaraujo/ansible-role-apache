@@ -13,7 +13,14 @@ galaxy_info:
   - name: EL  
     versions:     
     - 8         
-    - 7        
+    - 7
+  - name: Debian  
+    versions:     
+    - all         
+  - name: Ubuntu  
+    versions:     
+    - bionic         
+    - xenial   
     
   galaxy_tags: 
     - http server
