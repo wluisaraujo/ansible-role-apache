@@ -5,10 +5,11 @@ galaxy_info:
   company: LUSAR | wluisaraujo.github.io
   license: "license (GPLv3)"
   min_ansible_version: 2.4
-  platforms:
-  - name: EL
-    versions:
-    - 7	
+  platforms:    
+  - name: Fedora  
+  versions:     
+  - all         
+  - 25        
   galaxy_tags: 
     - http server
     - webserver
