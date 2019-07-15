@@ -8,18 +8,7 @@ galaxy_info:
   platforms:
   - name: EL
     versions:
-    - 7
-  - name: Fedora
-    versions:
-    - 30
-#    - 29	
-  - name: Debian
-    versions:
-    - all
-  - name: Ubuntu
-    versions:
-    - bionic
-3    - xenial	
+    - 7	
   galaxy_tags: 
     - http server
     - webserver
