@@ -6,11 +6,10 @@ MAINTAINER wluisaraujo
 LABEL maintainer="wluisaraujo"
 
 RUN apt-get update
-RUN export DEBIAN_FRONTEND=noninteractive
-RUN apt-get install -y apache2
+RUN DEBIAN_FRONTEND=noninteractive apt-get install -y apache2
 
 #VOLUME [ "/path", "/path1" ]
 CMD service slapd start
 
-EXPOSE 389/tcp 389/udp
-EXPOSE 636/tcp 636/udp
+EXPOSE 80/tcp 
+EXPOSE 443/tcp
