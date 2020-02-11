@@ -1,0 +1,32 @@
+---
+version: '3'
+services:
+  apache:
+    image: wluisaraujo/apache
+    container_name: apache
+    hostname: apache
+    privileged: true
+    tty: true
+    dns_search: intranet.dexter.com.br
+    restart: always
+#    dns:
+#      - 127.0.0.1
+#      - 8.8.8.8
+    ports:
+      - "80/tcp:80/tcp"
+      - "443/tcp:443/tcp"
+    expose:
+      - "80/tcp"
+      - "443/tcp"
+    extra_hosts:
+      - "balancer.dexter.com.br:172.16.238.1"
+      - "intranet.dexter.com.br:172.16.238.2"
+      - "ldap.dexter.com.br:172.16.238.3"
+      - "ns1.dexter.com.br:172.16.238.4"
+      - "proxy.dexter.com.br:172.16.238.5"
+    environment:
+      LANGUAGE: en_US:en
+      LC_ALL: en_US.UTF-8
+      LC_MESSAGES: en_US.UTF-8
+      LANG: C.UTF-8
+...
