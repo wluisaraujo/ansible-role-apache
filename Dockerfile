@@ -13,3 +13,4 @@ CMD service slapd start
 
 EXPOSE 80/tcp 
 EXPOSE 443/tcp
+
