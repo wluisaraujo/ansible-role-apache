@@ -1,0 +1,10 @@
+---
+# vars file for apache
+
+packages:
+  - epel-release
+  - httpd
+  - httpd-tools
+  - php
+  - php-mysql
+  - roundcubemail
