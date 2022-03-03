@@ -1,4 +1,4 @@
-[![Ansible Galaxy](https://img.shields.io/badge/Ansible%20Galaxy-Apache-blue.svg)](https://galaxy.ansible.com/wluisaraujo/apache) [![Build Status](https://travis-ci.org/wluisaraujo/ansible-role-apache.svg?branch=master)](https://travis-ci.org/wluisaraujo/ansible-role-apache)
+[![Ansible Galaxy](https://img.shields.io/badge/Ansible%20Galaxy-Apache-blue.svg)](https://galaxy.ansible.com/wluisaraujo/apache) [![Build Status](https://travis-ci.com/wluisaraujo/ansible-role-apache.svg?branch=master)](https://travis-ci.com/wluisaraujo/ansible-role-apache)
 
 # IaC: with [Ansible](https://www.ansible.com) role to install and configure [Apache WebServer](https://www.apache.org/)
 ------------
